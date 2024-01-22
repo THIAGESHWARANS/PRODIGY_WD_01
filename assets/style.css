@@ -26,7 +26,7 @@ section{
 }
 
 .header .logo img{
-  height:6 rem;
+  height:6rem;
 }
 .header .navbar #close{
   display:none;
@@ -35,7 +35,7 @@ section{
   right: 2rem;
   cursor: pointer;
   font-size: 3rem;
-  color: white;
+  color:black;
 }
 .header .navbar a{
   font-size: 2rem;
@@ -49,7 +49,7 @@ section{
   display: none;
   cursor: pointer;
   font-size: 2.5rem;
-  color:white;
+  color:black;
 }
 
 
@@ -69,9 +69,10 @@ section{
 }
 .page1 .content .title{
   font-size: 6rem;
+  color:white;
   text-transform:uppercase;
 }
-.page1 .title span{
+.page1 .content .title span{
   text-transform: uppercase;
   color:#901a1a;
 }
@@ -82,16 +83,16 @@ section{
   padding: 1rem 0;
   color: black;
 }
-.page1 .content .btn{
+.page1 .content .button{
   margin-top: 1rem;
   display: inline-block;
   padding:.9rem 3rem;
   font-size: 1.7rem;
   color:white;
   cursor:pointer;
-  background-color: #901a1a;
+  background: #901a1a;
 }
-.page1 .btn:hover{
+.page1 .content .button:hover{
   letter-spacing: .2rem;
 }
 .page1 .image{
@@ -120,8 +121,10 @@ section{
     position: fixed;
     top:0; right: -100%;
     width:30rem;
+    height:100%;
     flex-flow: column;
     background:rgba(255, 255, 255, 0.223);
+    backdrop-filter: blur(50px);
     display:flex;
     justify-content: center;
     z-index:1200;
@@ -131,5 +134,29 @@ section{
   }
   .header .navbar #close{
     display: block;
+  }
+  .header .navbar a{
+    display: block;
+    margin: 1rem 0;
+    text-align: center;
+    font-size: 3rem;
+  }
+  .page1 .content{
+    padding-top: 9.5rem;
+  }
+  .page1 .image img{
+    width: 368px;
+  }
+  .page1 .content .title{
+    font-size: 4rem;
+  }
+  .page1 .content .description{
+    font-size: 1.6rem;
+  }
+
+}
+@media(max-width:450px){
+  html{
+    font-size: 50%;
   }
 }
