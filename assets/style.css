@@ -45,6 +45,10 @@ section{
 .header .navbar a:hover{
   color:black;
 }
+.header .navbar .nav-item{
+  transform: translate(0px, 0px);
+  opacity: 1;
+}
 .header #menu{
   display: none;
   cursor: pointer;
