@@ -10,27 +10,14 @@
 - **Responsive Harmony:** This landing page adapts seamlessly to any screen, ensuring a flawless experience on desktops, mobiles, and tablets.
 - **Dynamic Dance:** Witness the magic unfold as subtle animations breathe life into the page, adding a touch of whimsy and intrigue.
 
-## Technologies Used 💻
-
-- HTML
-- CSS
-- JavaScript
-
 ## Getting Started 🛠️
 
-To view the landing page, simply [click here]([link-to-live-demo](https://superlative-bombolone-895a04.netlify.app/)).
+**To view the landing page, simply [Click here](https://superlative-bombolone-895a04.netlify.app/)**
 
 To run the project locally, follow these steps:
 
 1. Clone the repository: `git clone https://github.com/your-username/typewriter-symphony-landing.git`
 2. Open the `index.html` file in your preferred web browser.
-
-## Screenshots 📷
-
-![Screenshot 1](link-to-screenshot-1.jpg)
-![Screenshot 2](link-to-screenshot-2.jpg)
-![Screenshot 3](link-to-screenshot-3.jpg)
-[Add any additional screenshots you'd like to showcase.]
 
 ## Under the Hood 🛠️
 
@@ -53,9 +40,5 @@ If you'd like to contribute to this project, please follow these guidelines:
 3. Make your changes and commit them: `git commit -m 'Add new feature'`.
 4. Push to the branch: `git push origin feature/new-feature`.
 5. Submit a pull request.
-
-## License 📝
-
-This project is licensed under the [MIT License](LICENSE).
 
 Feel free to reach out if you have any questions or feedback. Happy coding! 🚀🎶
